@@ -1,6 +1,6 @@
 import 'modern-normalize';
 import { createGlobalStyle } from 'styled-components';
-import { selectDesktop, selectPhone, selectTablet } from '../utils';
+import { selectDesktop, selectPhone, selectTablet } from '../../utils';
 
 export const GlobalStyle = createGlobalStyle`
 
