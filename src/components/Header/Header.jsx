@@ -7,7 +7,7 @@ import {
     ButtonGetInTouch,
   } from './Header.styled';
 
-const Header = () => {
+export const Header = () => {
     return (
         <HeaderContainer>
           <Logo href="/">
@@ -54,4 +54,3 @@ const Header = () => {
       );
 }
 
-export default Header;
