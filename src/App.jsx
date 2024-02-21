@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './shared/styles/GlobalStyle';
-/* import { SharedLayout } from './components/SharedLayout/SharedLayout'; */
 import { theme } from './theme/theme';
+import Layout from 'components/Layout/Layout';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      {/* <SharedLayout /> */}
+      <Layout/>
     </ThemeProvider>
   )
 }
